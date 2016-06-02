@@ -9,7 +9,19 @@
   </head>
   <body>
     <div class="container">
-      <div class="row">
+      <div class="row well">
+        <div class="col-lg-12">
+          <div id="output">
+          <div class="panel panel-success">
+            <div class="panel-heading">
+              <h3 class="panel-title">Result</h3>
+            </div>
+              <div class="panel-body">
+                <p> = <span id="result"></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
         <!--Addition-->
         <div class="col-sm-12 col-lg-6">
           <h1>Addition Calculator</h1>
@@ -24,7 +36,6 @@
                   <label for="number2">Second Number</label>
                   <input id="add2" class="form-control" type="number">
               </div>
-
 
             <button type="submit" class="btn">Calculate!</button>
             </form>
@@ -82,17 +93,9 @@
                   </div>
 
                   <button type="submit" class="btn">Calculate!</button>
-                  </form>
-                </div>
+                </form>
               </div>
-
-
-          <div id="output">
-            <h4>Result</h4>
-            <p> = <span id="result"></span></p>
-          </div>
-
-        </div>
+            </div>
       </div>
     </div>
   </body>
